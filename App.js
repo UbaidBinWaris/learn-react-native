@@ -33,7 +33,7 @@ export default function App() {
       <Text className="text-6xl font-bold text-blue-600 mb-8">{counter}</Text>
 
       {/* Buttons Container */}
-      <View className="flex-row space-x-4">
+      <View className="flex-row gap-4">
         {/* Decrement Button */}
         <TouchableOpacity
           className="bg-red-500 px-8 py-4 rounded-2xl"
